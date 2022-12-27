@@ -1,0 +1,310 @@
+*{margin: 0;}
+*{padding: 0;}
+*{box-sizing: border-box;}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    border: 2px solid rgb(238, 236, 237);
+}
+body{
+
+    font-family: 'Anton', sans-serif;
+}
+header{
+    background: #583E26;
+min-height: 100vh;
+}
+.header-top{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 48px;
+    min-height: 60px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    min-width:450px;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    color: #583E26;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom:2px solid;
+}
+.headerinfo{
+    background-image: url(./img/start-screen-puppy.png); 
+    min-height:80vh;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+.headerinfo h1{
+    font-style: normal;
+font-weight:400;
+font-size:44px;
+line-height:130%;
+color: #d5f2f1;
+max-width:310px;
+padding-top: 20px;
+}
+.headerinfo p{
+    font-style: normal;
+font-weight:400;
+font-size: 24px;
+line-height:130%;
+color: #d5f2f1;
+max-width:458px;
+padding-top: 103px;
+}
+.headerinfo button{
+    padding:15px;
+    border-radius:100px;
+    border: 2px solid #000000;
+    margin-top:45px;
+    margin-bottom: 50px;
+
+}
+.headerinfo button:hover {
+    background-color: #87705b;
+}
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top:80px;
+    padding-bottom:100px;
+}
+.a_about {
+    font-family: 'Anton', monospace;
+}
+.about-content h2 {
+   font-weight:50;
+   max-width:500px;
+   font-size:38px;
+}
+.p1 {
+    font-weight:50;
+    max-width:530px;
+    padding-top:25px;
+    font-size:17px;
+}
+.p2 {
+    font-weight:50;
+    max-width:530px;
+    padding-top:25px;
+    font-size:17px;
+}
+.slider{
+    display: grid;
+    grid-template-columns: repeat(3,270px);
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    }
+    .pets { 
+        background-color: #F6F6F6; 
+        font-family: 'Anton', monospace; 
+    } 
+    .pets h2 { 
+        font-size: 25px; 
+        font-weight: 300; 
+        margin-top: 38px; 
+        margin-left: 519px; 
+        margin-right: 480px; 
+    } 
+    .card {
+        margin-top: 60px; 
+        margin-bottom: 23px; 
+        background-color: white; 
+        border-radius: 9px;
+    } 
+        
+.card button { 
+    border-radius: 100px; 
+    padding: 15px 45px; 
+    margin-left: 41.5px; 
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+    font-weight: 200; 
+    border-color: #87705b; 
+    background-color: rgb(255, 255, 255); 
+} 
+.card button:hover { 
+    background-color: #87705b; 
+}
+.card img {
+    max-width: 270px;
+    margin-top: 30px;
+    margin-left: 495;
+}
+.card h3{
+    margin-left: 100px;
+}
+.b1 {
+    padding: 15px 45px;
+    margin-bottom: 100px;
+    margin-left: 555px;
+    border-radius: 100px;
+    border-color: #87705b;
+    background-color: white;
+    }
+    .b1:hover {
+        background-color: #87705b;
+
+    }
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .list-item{
+        width: 20%;
+    }
+    .list-item img{
+        display: block;
+        margin: 0 auto;
+    }
+    .list-item h3{
+        font-style: normal; 
+        font-family: 'Anton', monospace; 
+        font-weight: 200; 
+        font-size: 18px; 
+        line-height: 23px; 
+        text-align: center; 
+        letter-spacing: 0.06em; 
+        border-radius: 100px; 
+        margin-top: 30px; 
+        color: #87705b;
+    }
+    .help { 
+        background-color: white; 
+    } 
+    .list { 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+    } 
+    .help h2 { 
+        padding-left: 500px; 
+        padding-top: 96px; 
+        padding-bottom: 60px; 
+        font-style: normal; 
+        font-family: 'Anton', monospace; 
+        font-weight: 300; 
+        font-size: 30px; 
+    }    
+    .donation{ 
+        font-family: 'Anton', monospace; 
+        background-color: #F6F6F6; 
+        display: flex; 
+    } 
+    .d_container { 
+        display: flex; 
+        justify-content: space-between; 
+    } 
+    .d_img { 
+        margin-left: 183px; 
+        margin-top: 80px; 
+        margin-bottom: 110px; 
+        max-height: 261px; 
+    } 
+    .d_content { 
+        display: wrap; 
+        margin-left: 30px; 
+    } 
+    .d_content h2 { 
+        margin-top: 80px; 
+        margin-right: 310px; 
+        font-weight: 200; 
+        font-size: 27px; 
+    } 
+    .d_content h3 { 
+        font-size: 15px; 
+        font-weight: 200; 
+        margin-top: 20px; 
+        margin-right: 200px; 
+    } 
+    .pp { 
+        font-size: 12px; 
+        margin-top: 20px; 
+        margin-right: 94px; 
+        color: #B2B2B2; 
+        font-weight: 200; 
+    } 
+    .credit { 
+        margin-top: 26px; 
+        background-color: #957f6b; 
+        width: 349px; 
+        height: 43px; 
+        border-radius: 9px; 
+        display: flex; 
+        justify-content: space-between; 
+        margin-right: 215px; 
+    } 
+    .credit img { 
+        margin-left: 15px; 
+        width: 30px; 
+        height: 23px; 
+        margin-top: 10px; 
+    } 
+    .credit p { 
+        font-size: 18px; 
+        font-weight: 200; 
+        margin-right: 27px; 
+        margin-top: 11px; 
+    }
+    
+@media screen and (max-width:700px) {
+    .headerinfo h1 {
+        padding-top: 32px;
+    }
+    .headerinfo {
+        background-size: 102vh;
+    }
+    .headerinfo p {
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width:636px) {
+    nav ul {
+        min-width: 346px;
+    }
+}
+@media screen and (max-width:592px) {
+    .headerinfo{
+        background-size: 78vh;
+    }
+}
+@media screen and (max-width:560px) {
+    .headerinfo {
+        background-size: 74vh;
+    }
+    .header-top {
+        padding-top: 13px;
+    }
+}
+@media screen and (max-width: 541px) {
+
+    
+}
+ @media screen and (max-width:500px) {
+    nav ul {
+        min-width: 282px;
+        font-size: 12px;
+    }
+    .headerinfo{
+        background-size: 70vh;
+    }
+ }
+    
+@media screen and (max-width:240px) {
+    .header-top, nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
